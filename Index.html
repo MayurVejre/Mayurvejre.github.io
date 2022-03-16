@@ -378,7 +378,7 @@
     </div>
     <div class="row">
       <div class="col-lg-12 ms-auto">
-        <form  onsubmit="return validateform()" Name="myForm" method="post" action="Index.html" >
+        <form  onsubmit="return validateForm()" Name="myForm" method="post" action="Index.html" >
           <div class="form-row input-group">
             <div class="col-lg-6">
               <input type="text" class="form-control bg-light mb-3" placeholder="Full Name"  name="Fname">
@@ -438,7 +438,7 @@
   </div>
 </footer>
 <script>
-  function validateform(){
+  function validateForm(){
     var Fname=document.myForm.Fname.value;
     var x=document.myForm.Email.value;  
     var atposition=x.indexOf("@");  
