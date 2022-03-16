@@ -90,7 +90,7 @@
     background-color: rgb(201, 201, 201);
 }
 .Hobbies{
-    background-color: rgb(88, 88, 88);
+    background-color: rgb(238, 237, 237);
 }
 h1{
     font-size: 3rem;
@@ -359,16 +359,16 @@ h5{
     border: 1px solid black;
 }
 .Certifications{
-    background-color: grey;
+    background-color: rgb(238, 237, 237);
 
 }
 .b{
-    color: greenyellow;
+    color: black;
     text-align: center;
 
 }
 .a{
-    color: white;
+    color: black;
     font-size: 20px;
 }
 footer{
@@ -376,17 +376,17 @@ footer{
     color: white;
 }
 .c{
-    color: rgb(255, 98, 98);
+    color: rgb(24, 24, 24);
     text-align: center;
 }
 .project{
-    background-color: rgb(65, 34, 34);
+    background-color: rgb(255, 255, 255);
 }
 .d{
-    color: white;
+    color: black;
 }
 .d:hover{
-    color: black;
+    color: grey;
 }
 .f{
     width: 300px;
@@ -394,11 +394,16 @@ footer{
 }
 .x{
     color: rgb(22, 22, 22);
-    background-color: rgb(167, 86, 86);
+    background-color: rgb(233, 233, 233);
     border-color: black;
     border-style: double;
+    border-radius: 10px;
 }
 .y{
     text-align: center;
     color: black;
+}
+.nav-item:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 10px;
 }
